@@ -9,6 +9,7 @@ public class TableUtilities {
             for (int j = 1; j<=tableSize; j++) {
                 string.append(String.format("%3d |" , (i * j)));
             }
+
             string.append("\n");
         }
         return string.toString();
